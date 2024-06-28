@@ -71,7 +71,8 @@ fun AddToDoScreen(navController: NavHostController, toDoViewModel: ToDoViewModel
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(
-                            Icons.Default.ArrowBack, contentDescription = stringResource(id = R.string.back),
+                            Icons.Default.ArrowBack,
+                            contentDescription = stringResource(id = R.string.back),
                             tint = Color.White
                         )
                     }
@@ -129,6 +130,15 @@ fun AddToDoScreen(navController: NavHostController, toDoViewModel: ToDoViewModel
                         .padding(end = 16.dp)
                 ) {
                     Text(text = stringResource(id = R.string.add_todo))
+                }
+
+                /*Showing Progress bar based on condition for 3 seconds*/
+                if (showProgress) {
+                    Spacer(modifier = Modifier.height(16.dp))
+                    CircularProgressIndicator(
+                        color = colorResource(id = R.color.green),
+                        modifier = Modifier.align(Alignment.CenterHorizontally)
+                    )
                 }
 
             }
