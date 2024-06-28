@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TODO App</string>
+    <string name="add_todo">Add ToDo</string>
+    <string name="enter_new_item">Enter new item</string>
+    <string name="enter_field_no_empty">Enter new item field should not be empty!</string>
+    <string name="press_button_to_add">Press the + button to add a TODO item</string>
+    <string name="error">Error</string>
+    <string name="failed_to_add_todo">Failed to add TODO Item</string>
+    <string name="to_do_list">To-Do List</string>
+    <string name="search_for_todo">Search for TODO</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="back">Back</string>
+
+</resources>

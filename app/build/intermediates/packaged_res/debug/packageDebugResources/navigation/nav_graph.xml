@@ -1,0 +1,15 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/toDoList"
+    tools:ignore="InvalidNavigation">
+
+    <composable
+        android:id="@+id/toDoList"
+        android:label="ToDoListScreen" />
+
+    <composable
+        android:id="@+id/addToDo"
+        android:label="AddToDoScreen" />
+
+</navigation>

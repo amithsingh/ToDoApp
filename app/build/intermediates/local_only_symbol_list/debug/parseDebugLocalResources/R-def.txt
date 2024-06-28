@@ -1,0 +1,43 @@
+R_DEF: Internal format may change without notice
+local
+attr? exampleColor
+attr? exampleDimension
+attr? exampleDrawable
+attr? exampleString
+color black
+color gray_400
+color gray_600
+color green
+color light_blue_400
+color light_blue_600
+color purple_200
+color purple_500
+color purple_700
+color statusColor
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable todoapp
+id addToDo
+id toDoList
+mipmap ic_launcher
+mipmap ic_launcher_round
+navigation nav_graph
+string add_todo
+string app_name
+string back
+string dismiss
+string enter_field_no_empty
+string enter_new_item
+string error
+string failed_to_add_todo
+string press_button_to_add
+string search_for_todo
+string to_do_list
+style Theme.TODOList
+style Widget.Theme.TODOList.MyView
+styleable ToDoListScreen exampleString exampleDimension exampleColor exampleDrawable
+xml backup_rules
+xml data_extraction_rules

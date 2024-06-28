@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="green">#3CB043</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="statusColor">#03AC13</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_todo">Add ToDo</string>
+    <string name="app_name">TODO App</string>
+    <string name="back">Back</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="enter_field_no_empty">Enter new item field should not be empty!</string>
+    <string name="enter_new_item">Enter new item</string>
+    <string name="error">Error</string>
+    <string name="failed_to_add_todo">Failed to add TODO Item</string>
+    <string name="press_button_to_add">Press the + button to add a TODO item</string>
+    <string name="search_for_todo">Search for TODO</string>
+    <string name="to_do_list">To-Do List</string>
+    <style name="Theme.TODOList" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Widget.Theme.TODOList.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+    </style>
+    <declare-styleable name="ToDoListScreen">
+        <attr format="string" name="exampleString"/>
+        <attr format="dimension" name="exampleDimension"/>
+        <attr format="color" name="exampleColor"/>
+        <attr format="color|reference" name="exampleDrawable"/>
+    </declare-styleable>
+</resources>
