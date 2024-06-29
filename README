@@ -1,0 +1,7 @@
+A brief explanation of architecture and components used in Application.
+
+1. I have used MVVM with clean Architecture to develop the ToDoList Application and created separate
+ reusable modules for Data and Domain layers.
+2. Used Android JetPack Component like Compose, Navigation, Dagger Hilt, Flow and Room database.
+3. Used Coroutines to handle the Network task to execute asynchronously. which we boost the performance of the application.
+4. Created the Unit and Instrumental test cases for View model and Room Database.
