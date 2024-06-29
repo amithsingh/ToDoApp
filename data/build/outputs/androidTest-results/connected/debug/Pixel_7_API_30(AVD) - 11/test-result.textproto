@@ -1,0 +1,68 @@
+# 2024-06-29T13:58:21.996337100Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "RoomDatabaseTest"
+    test_package: "com.example.data"
+    test_method: "insertAndGetTasks"
+    start_time {
+      seconds: 1719669500
+      nanos: 273000000
+    }
+    end_time {
+      seconds: 1719669501
+      nanos: 128000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\TODOList\\data\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_30(AVD) - 11\\logcat-com.example.data.RoomDatabaseTest-insertAndGetTasks.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\TODOList\\data\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_30(AVD) - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\TODOList\\data\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_30(AVD) - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Projects\\TODOList\\data\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_30(AVD) - 11\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Projects\\TODOList\\data\\build\\outputs\\androidTest-results\\connected\\debug\\Pixel_7_API_30(AVD) - 11\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

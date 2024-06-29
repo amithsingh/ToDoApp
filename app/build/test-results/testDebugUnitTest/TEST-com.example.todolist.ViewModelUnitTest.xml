@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.todolist.ViewModelUnitTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-06-29T13:55:32" hostname="DESKTOP-G3ETCP0" time="2.278">
+  <properties/>
+  <testcase name="clearErrorMessage" classname="com.example.todolist.ViewModelUnitTest" time="2.043"/>
+  <testcase name="addTodo failure" classname="com.example.todolist.ViewModelUnitTest" time="0.182"/>
+  <testcase name="addToDo success" classname="com.example.todolist.ViewModelUnitTest" time="0.02"/>
+  <testcase name="todos flow getToItemList" classname="com.example.todolist.ViewModelUnitTest" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

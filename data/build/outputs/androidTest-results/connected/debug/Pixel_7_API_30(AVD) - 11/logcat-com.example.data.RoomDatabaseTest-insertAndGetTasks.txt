@@ -1,0 +1,37 @@
+06-29 19:28:20.245  4396  4441 I TestRunner: started: insertAndGetTasks(com.example.data.RoomDatabaseTest)
+06-29 19:28:20.268  2295  2295 I PlayCore: UID: [10102]  PID: [2295] StandardIntegrity : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.expressintegrityservice.ExpressIntegrityService})
+06-29 19:28:20.269  2295  4324 I PlayCore: UID: [10102]  PID: [2295] StandardIntegrity : linkToDeath
+06-29 19:28:20.331  2805  4271 W PlayCommon: [257] ario.m(11): No account for auth token provided
+06-29 19:28:20.331  2805  4271 I PlayCommon: [257] ario.k(255): Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+06-29 19:28:20.334  2295  2403 I PlayCore: UID: [10102]  PID: [2295] OnRequestIntegrityTokenCallback : onRequestExpressIntegrityToken
+06-29 19:28:20.335  2295  4324 I PlayCore: UID: [10102]  PID: [2295] StandardIntegrity : Unbind from service.
+06-29 19:28:20.365  1584  1584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.checkin.START pkg=com.google.android.gms }
+06-29 19:28:20.456  1182  2470 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-29 19:28:20.472  1584  1584 D BoundBrokerSvc: onUnbind: Intent { act=.people.service.wipeout.PeopleAndroidUriWipeoutTask.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:20.514  1584  1584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.service.START pkg=com.google.android.gms }
+06-29 19:28:20.543  1182  2470 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-29 19:28:20.632  1182  1203 I .gms.persisten: Background young concurrent copying GC freed 90421(5730KB) AllocSpace objects, 0(0B) LOS objects, 28% free, 14MB/20MB, paused 12.289ms total 256.551ms
+06-29 19:28:20.649  2805  4271 I PlayCommon: [257] ario.k(292): Successfully uploaded logs.
+06-29 19:28:20.668  1729  3105 V ClearcutMetricXmitter: Transmission is done.
+06-29 19:28:20.712  1584  1584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.semanticlocation.mdd.MddDownloadScheduleService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:20.712  1584  1584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocation.mdd.MddDownloadScheduleService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:20.726  1182  1438 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-29 19:28:20.726  1729  3105 V ClearcutMetricXmitter: Transmission is done.
+06-29 19:28:20.740  2295  2536 I Finsky  : [215] acti.q(83): SCH: jobFinished: 10-3. TimeElapsed: 2996ms.
+06-29 19:28:20.779  1182  1438 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-29 19:28:20.783  2295  2295 I Finsky  : [2] actz.accept(408): SCH: Job 10-14 starting
+06-29 19:28:20.784  2295  2295 I Finsky  : [2] InstantAppsEnabledStatusSyncHygieneJob.a(26): Instant App status sync triggered from migrated hygiene.
+06-29 19:28:20.862  1584  1584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.semanticlocationhistory.settings.LocationHistoryActiveProcessingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:20.862  1584  1584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocationhistory.settings.LocationHistoryActiveProcessingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:20.876  1182  2470 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-29 19:28:20.894  1182  1438 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-29 19:28:20.900  1584  1584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.semanticlocation.mdd.MddDownloadScheduleService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:20.906  4051  4149 I Finsky:quick_launch: [351] nlg.f(43): Subscription detail: DataSubscriptionInfo{groupIdLevel1=null, serviceProviderName=[Zr1R7g28S8p7iucp_gnNJJtsRl-pgO3Y6eIkCh24Iy0], simCarrierId=1}
+06-29 19:28:20.910  4051  4069 D TelephonyRegistryManager: onSubscriptionsChangedListener callback received.
+06-29 19:28:20.911  4051  4051 I Finsky:quick_launch: [2] nlf.onSubscriptionsChanged(6): onSubscriptionsChanged
+06-29 19:28:20.914  1584  1584 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.semanticlocationhistory.settings.LocationHistoryActiveProcessingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:20.932  1182  1438 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-29 19:28:21.008  1584  1584 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.semanticlocationhistory.settings.SettingsSyncService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:21.008  1584  1584 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocationhistory.settings.SettingsSyncService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-29 19:28:21.055  1182  2470 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-29 19:28:21.100  4396  4441 I TestRunner: finished: insertAndGetTasks(com.example.data.RoomDatabaseTest)
