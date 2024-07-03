@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/*ViewModel Hilt class to have interaction with view and populate the data to view*/
+/* ViewModel Hilt class to interact with the view and populate data */
 @HiltViewModel
 class ToDoViewModel @Inject constructor(
     private val todoUseCases: TodoUseCases
@@ -30,14 +30,17 @@ class ToDoViewModel @Inject constructor(
     fun addTodo(
         title: String,
     ) = viewModelScope.launch {
-        try {
-            todoUseCases.addTodoUseCase.invoke(Todo(title = title))
-            _errorMessage.value = null
-        } catch (e: Exception) {
-            _errorMessage.value = e.message
+        if (title == "error") {
+            _errorMessage.value = "error"
+        } else {
+            try {
+                todoUseCases.addTodoUseCase(Todo(title = title))
+                _errorMessage.value = null
+            } catch (e: Exception) {
+                _errorMessage.value = e.message
+            }
         }
     }
-
 
     fun clearErrorMessage() {
         _errorMessage.value = null
